@@ -1,0 +1,52 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f5ebeb;
+}
+
+.logo img {
+  height: 80px; /* Increase the height */
+  width: auto; /* Automatically adjust the width to maintain aspect ratio */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  transition: color 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.nav-links a:hover {
+  color: #c48771; /* Change the color on hover */
+}
+
+.nav-links a.active {
+  color: #c48771; /* Change the color for the active link */
+  font-weight: bold; /* Optionally make the active link bold */
+}
+
+/* Example for the logo */
+.logo {
+  flex: 1; /* Ensure the logo takes up remaining space */
+}
+
+/* Example for the nav links to align to the right */
+.nav-links {
+  flex: 1; /* Ensure the links take up remaining space */
+  display: flex;
+  justify-content: flex-end;
+}
