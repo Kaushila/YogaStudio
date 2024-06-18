@@ -41,6 +41,14 @@ To get a local copy up and running follow these simple steps.
    ```sh
    git clone https://github.com/your-username/your-repo.git
 
+2. Install npm packages
+
+   npm install
+   
+4. Run the project
+
+   npm start
+
 
 ### Contact
 Kaushila - sachindanik@gmail.com
