@@ -39,7 +39,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your-username/your-repo.git
+   https://github.com/Kaushila/YogaStudio.git
 
 2. Install npm packages
 
@@ -53,4 +53,4 @@ To get a local copy up and running follow these simple steps.
 ### Contact
 Kaushila - sachindanik@gmail.com
 
-Project Link: https://github.com/your-username/your-repo   
+Project Link: https://github.com/Kaushila/YogaStudio.git
