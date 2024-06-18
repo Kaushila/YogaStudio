@@ -24,7 +24,6 @@ This project is a website for a yoga academy, designed to promote the studio, pr
 - **Frontend**: React.js, Ant Design, CSS
 - **Backend**: Node.js 
 - **Database**: MySQL
-- **Deployment**: Heroku (or your preferred deployment platform)
 
 ## Getting Started
 
