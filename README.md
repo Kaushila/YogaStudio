@@ -13,12 +13,6 @@ This project is a website for a yoga academy, designed to promote the studio, pr
 - **Contact Us**: Contact form and location information.
 - **Responsive Design**: Ensures the website looks great on all devices.
 
-## Screenshots
-
-![Home Page](url-to-homepage-screenshot)
-![Classes Page](url-to-classespage-screenshot)
-![About Us Page](url-to-aboutuspage-screenshot)
-
 ## Technologies Used
 
 - **Frontend**: React.js, Ant Design, CSS
