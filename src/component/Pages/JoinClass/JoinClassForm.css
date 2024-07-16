@@ -1,0 +1,30 @@
+.join-class-form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .join-class-form-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .ant-form-item {
+    max-width: 300px;
+    margin: 0 auto 16px; /* Center the input fields and add some margin */
+  }
+  
+  .ant-form-item-control-input-content > input,
+  .ant-form-item-control-input-content > .ant-select {
+    width: 100%;
+  }
+  
+  .join-class-form-container .ant-btn {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  

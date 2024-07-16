@@ -1,0 +1,246 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    background-color: #f5ebeb; 
+  }
+  
+  .home-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    
+  }
+  
+  .home-text {
+    max-width: 600px;
+  }
+  
+  .home-text h1 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display';
+  }
+  
+  .home-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .join-button {
+    background-color: #e39696;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .learn-more {
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* .learn-more::after {
+    content: ' ➞';
+    margin-left: 5px;
+  } */
+  
+  .home-image img {
+    max-width: 500px;
+    border-radius: 10px;
+    
+  }
+  
+  
+  .customize-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .customize-button a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+  }
+  
+  .customize-button a img {
+    margin-right: 5px;
+  }
+  
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .social-icons a {
+    margin-bottom: 10px;
+  }
+  
+
+  .home-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .home-text {
+    max-width: 50%;
+  }
+  
+  .home-text h1 {
+    font-size: 6rem;
+    /* font-family: 'Georgia', serif; */
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 20px;
+    margin-top:10px;
+  }
+  
+  .home-text p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    /* font-family: "Times New Roman", Times, serif; */
+    color:gray;
+  }
+  
+  .home-buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .join-class-btn, .learn-more-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .join-class-btn {
+    background-color: #c48771;
+    color: white;
+  }
+  
+  .learn-more-btn {
+    background-color: transparent;
+    color: #c48771;
+    border: 2px solid #c48771;
+  }
+  
+  .home-image img {
+    max-width: 2000px;
+    border-radius: 10px;
+  }
+  
+  .yoga-styles {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .yoga-styles h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .yoga-styles p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .styles-sections {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  }
+  
+  .style-column {
+    max-width: 300px;
+  }
+  
+  .style-column h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .style-column p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .video-section {
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .full-width-video {
+    width: 100vw;
+    max-width: 100%;
+    margin-left: calc(-50vw + 50%);
+  }
+  .yoga-instructors {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 2rem;
+    font-family: "Times New Roman", Times, serif;
+  }
+  h3{
+    font-size: 1rem;
+  }
+  
+  .instructors {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+  }
+  
+  .instructor {
+    text-align: center;
+  }
+  
+  .instructor img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .social-icons i {
+    font-size: 20px;
+  }
+  

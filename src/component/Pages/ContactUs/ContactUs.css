@@ -1,0 +1,132 @@
+
+
+.contact-us-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+  
+.contact-us-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 40px;
+}
+  
+.contact-us-left {
+    flex: 1;
+}
+  
+.contact-us-right {
+    flex: 1;
+    padding-left: 20px;
+}
+  
+.contact-info {
+    margin-top: 20px;
+}
+  
+.contact-item {
+    margin-bottom: 10px;
+}
+  
+.contact-form-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.contact-form-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-family: "Times New Roman", Times, serif;
+    text-align:center
+}
+  
+.contact-info h3 {
+   
+    font-family: "Times New Roman", Times, serif;
+    font-size:1.5rem;
+   
+}
+.contact-us-left{
+
+    font-family: "Times New Roman", Times, serif;
+}
+.contact-us-left p {
+    
+   font-size:1.5rem;
+   font-weight: semi bold;
+   color:gray;
+
+    
+}
+.contact-item p{
+
+    font-size:1.2rem;
+    color:black;
+}
+.contact-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.contact-form-container label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+     font-family: "Times New Roman", Times, serif;
+}
+  
+.contact-form-container input,
+.contact-form-container textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+  
+.contact-form-container textarea {
+    resize: vertical;
+}
+  
+.contact-form-container button {
+    background-color: #c48771;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width:150px;
+    font-family: "Times New Roman", Times, serif;
+}
+  
+.contact-form-container button:hover {
+    background-color: #b47263;
+}
+  
+@media (max-width: 768px) {
+    .contact-us-container {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .contact-us-right {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+  
+    .contact-form-container {
+        width: 100%;
+        padding: 20px;
+    }
+}

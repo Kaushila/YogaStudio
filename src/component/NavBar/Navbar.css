@@ -1,0 +1,66 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f5ebeb;
+  position: fixed;
+  width: 100%; /* Ensures it spans the full width of the viewport */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensures it stays on top of other content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better separation */
+}
+
+.logo img {
+  height: 80px; /* Increase the height */
+  width: auto; /* Automatically adjust the width to maintain aspect ratio */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0; /* Remove default margin */
+  padding: 0 40px 0 0; /* Remove default padding and add more padding on the right */
+  flex: 2; /* Ensure the links take up remaining space */
+  justify-content: flex-end; /* Align links to the right */
+}
+
+.nav-links li {
+  display: inline; /* Ensure the list items are inline */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  transition: color 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.nav-links a:hover {
+  color: #c48771; /* Change the color on hover */
+}
+
+.nav-links a.active {
+  color: #c48771; /* Change the color for the active link */
+  font-weight: bold; /* Optionally make the active link bold */
+}
+
+/* Ensure the rest of the content is not hidden behind the navbar */
+.content {
+  margin-top: 100px; /* Adjust this value based on the height of your navbar */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Add a class for top space */
+.top-space {
+  margin-top: 120px; /* Adjust this value to provide the desired top space */
+}

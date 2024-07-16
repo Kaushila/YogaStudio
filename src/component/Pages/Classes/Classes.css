@@ -1,0 +1,88 @@
+/* ClassesScheduleTable.css */
+
+
+.schedule-table-container {
+    padding: 20px;
+    background-color: #f5ebeb; 
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-table-container h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+.ant-table-thead > tr > th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ant-table-tbody > tr > td {
+    text-align: center;
+    font-size: 16px;
+}
+
+.ant-table-row:hover {
+    background-color: #e6f7ff;
+}
+
+.ant-table-tbody > tr > td:first-child {
+    font-weight: bold;
+    color: #555;
+}
+
+.ant-table {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #e8e8e8;
+}
+
+.ant-table-bordered .ant-table-content {
+    border: none;
+}
+
+.ant-table-bordered .ant-table-thead > tr > th {
+    border: 10px solid #e8e8e8;
+}
+
+.ant-table-bordered .ant-table-tbody > tr > td {
+    border: 10px solid #e8e8e8;
+}
+
+
+/* src/Classes.css */
+
+.schedule-table-container {
+    padding: 20px;
+  }
+  
+  .schedule-table-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .schedule-table-container .ant-table {
+    margin-bottom: 20px;
+  }
+  
+  .schedule-table-container .ant-btn {
+    margin-top: 20px;
+  }
+  
+
+  .class-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .join-button {
+    background-color: #e39696;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
